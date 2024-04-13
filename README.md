@@ -48,7 +48,7 @@ chmod +x ./scripts/download_fairface.sh
 download_fairface.sh
 ```
 
-I also provide the preprocessed version of this dataset you can download it from [here]().
+I also provide the preprocessed version of this dataset you can download it from release.
 
 
 # Playing around with the dataset
@@ -56,7 +56,7 @@ Now that you have a dataset and all of its metadata you can play around with it,
 
 ## Sample#1: Adding Embedding as a new column
 Following script will extract the embedding of the `image` column in our dataset and save it in new `resnet18` column.
-Optionally you can download the dataset with pre-calculated embedding from [here]().
+Optionally you can download the dataset with pre-calculated embedding from release.
 
 ```bash
 python3 add_embedding.py datasets/fairface2latentplay.hf
@@ -82,7 +82,6 @@ We can also draw the plots using `umap`. in this case you can run:
 ```bash
 python3 visualization.py --multirun vis=resnet18 vis.proj_algorithm=umap
 ```
-
 
 # TODO: 
 Add more sample use cases ...
