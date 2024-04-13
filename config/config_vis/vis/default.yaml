@@ -1,0 +1,8 @@
+name: 'test'
+dataset_full_path: "./datasets/"
+embedding_key: resnet18
+proj_algorithm: tsne 
+discard: False
+max_unique_values: 10
+label_keys: 
+  - gender
