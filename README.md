@@ -78,6 +78,11 @@ Or you can do the same for the `race` column in the dataset.
 python3 visualization.py --multirun vis=resnet18 vis.label_keys=['race']  
 ```
 
+| Gender                              | Race           |
+|--------------------------------------|--------------------------------------|
+| <img src="./imgs/tsne_resnet18_gender.png" width="500"/>| <img src="./imgs/tsne_resnet18_race.png" width="500"/>|
+
+
 We can also draw the plots using `umap`. in this case you can run:
 ```bash
 python3 visualization.py --multirun vis=resnet18 vis.proj_algorithm=umap
@@ -85,7 +90,6 @@ python3 visualization.py --multirun vis=resnet18 vis.proj_algorithm=umap
 
 # TODO: 
 Add more sample use cases ...
-
 
 # Citation
 If you found this framework useful please consider citing our paper. 
