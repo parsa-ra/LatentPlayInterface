@@ -91,6 +91,9 @@ python3 visualization.py --multirun vis=resnet18 vis.proj_algorithm=umap
 # TODO: 
 Add more sample use cases ...
 
+# Disclaimer
+This repository is part of our full paper code release originally published [here](https://gitlab.idiap.ch/biometric/sg_latent_modeling). 
+
 # Citation
 If you found this framework useful please consider citing our paper. 
 
